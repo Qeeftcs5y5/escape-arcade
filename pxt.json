@@ -1,0 +1,30 @@
+{
+    "name": "escape",
+    "description": "Design Ci prototype - side-view escape game",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "core/config.ts",
+        "core/input.ts",
+        "core/box.ts",
+        "objects/gameObject.ts",
+        "objects/door.ts",
+        "objects/container.ts",
+        "entities/entity.ts",
+        "entities/player.ts",
+        "entities/npc.ts",
+        "world/room.ts",
+        "state/stats.ts",
+        "state/clock.ts",
+        "state/gameState.ts",
+        "world/world.ts",
+        "scenes/testScene.ts",
+        "main.ts"
+    ],
+    "testFiles": [],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
